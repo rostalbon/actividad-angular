@@ -1,5 +1,9 @@
 a {
     margin: 0.5em;
+    background-color: rgb(40, 87, 88);
+    padding: 0.7em;
+    border-radius: 1em;
+    color: rgb(182, 241, 243);
 }
 .nav {
     text-align: center;
