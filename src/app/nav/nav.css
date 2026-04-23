@@ -5,6 +5,13 @@ a {
     border-radius: 1em;
     color: rgb(182, 241, 243);
     font-size: 1.5em;
+    transition: 0.3s;
+}
+a:hover {
+    background-color: rgb(29, 58, 58);
+    padding: 1em;
+    margin: 0.2em;
+    transition: 0.3s;
 }
 .nav {
     text-align: center;
