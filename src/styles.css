@@ -9,3 +9,6 @@ body {
     background-color: rgb(169, 232, 235);
     font-family: monospace;
 }
+.esc {
+    font-style: italic;
+}
