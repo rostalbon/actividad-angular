@@ -1,0 +1,41 @@
+/* Contenedor principal */
+.carrousel-content {
+  display: flex;             /* Alinea los elementos en fila */
+  align-items: center;       /* Centra verticalmente las flechas con la imagen */
+  justify-content: flex-start;    /* Centra todo el conjunto en el medio de la pantalla */
+  gap: 20px;
+  width: 100%;
+}
+
+.img {
+  width: 20%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  border: 1em;
+  border-color: black;
+}
+
+.img ::ng-deep img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Estilo básico para los botones (flechas) */
+button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}

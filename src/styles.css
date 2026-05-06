@@ -6,7 +6,7 @@ h1 {
     margin-bottom: 0em;
 }
 body {
-    background-color: rgb(169, 232, 235);
+    background-image: url(/fondo.webp);
     font-family: monospace;
 }
 .esc {
