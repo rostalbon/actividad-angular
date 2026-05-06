@@ -12,3 +12,6 @@ body {
 .esc {
     font-style: italic;
 }
+a {
+    color: rgb(26, 56, 58);
+}
