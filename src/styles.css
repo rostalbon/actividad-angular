@@ -19,3 +19,12 @@ body {
     font-size: xx-large;
     font-weight: bold;
 }
+
+ul {
+    list-style-type: square;
+    font-size: large;
+}
+
+a {
+    color: cadetblue;
+}
