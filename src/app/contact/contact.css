@@ -1,0 +1,9 @@
+p {
+    text-align: justify;
+    margin-left: 10em;
+    margin-right: 10em;
+    background-color: cadetblue;
+    padding: 1.5em;
+    border-radius: 1em;
+    font-size: large;
+}
