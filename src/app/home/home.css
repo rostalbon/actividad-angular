@@ -1,33 +1,30 @@
-/* 1. El contenedor padre que organiza a los dos hijos */
 .main-layout {
   display: flex;
-  align-items: flex-start; /* Alinea ambos arriba */
-  gap: 20px;               /* Espacio entre el carrusel y el derecho */
+  align-items: flex-start;
+  gap: 20px;
   width: 100%;
 }
 
-/* 2. Tu carrusel (mantiene sus medidas) */
 .carrousel-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  width: 30%;             /* Se queda con su 30% */
+  width: 30%;
   background-color: rgb(47, 87, 88);
   padding: 2em;
   border-radius: 2em;
   margin-top: 1em;
   margin-left: 1em;
-  flex-shrink: 0;         /* Evita que se encoja si el otro crece mucho */
+  flex-shrink: 0;
 }
 
-/* 3. El contenedor de la derecha */
 .right-container {
   display: flex;
-  flex-grow: 1;           /* Ocupa todo el espacio restante (el 70% aprox) */
-  margin-top: 1em;        /* Para que esté a la misma altura que el carrusel */
+  flex-grow: 1;
+  margin-top: 1em;
   padding: 2em;
-  background-color: rgb(47, 87, 88); /* Opcional: solo para ver dónde está */
+  background-color: rgb(47, 87, 88);
   border-radius: 2em;
 }
 
