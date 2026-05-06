@@ -1,17 +1,14 @@
 h1 {
     font-size: 4em;
     text-align: center;
-    color: rgb(29, 57, 58);
+    color: black;
     font-size: 6em;
     margin-bottom: 0em;
 }
 body {
-    background-image: url(/fondo.webp);
+    background-color: black;
     font-family: monospace;
 }
 .esc {
     font-style: italic;
-}
-a {
-    color: rgb(26, 56, 58);
 }

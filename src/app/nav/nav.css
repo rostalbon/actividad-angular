@@ -1,14 +1,15 @@
 a {
     margin: 0.5em;
-    background-color: rgb(40, 87, 88);
+    background-color: black;
     padding: 0.7em;
     border-radius: 1em;
-    color: rgb(182, 241, 243);
+    color: cadetblue;
     font-size: 1.5em;
     transition: 0.3s;
+    text-decoration: none;
 }
 a:hover {
-    background-color: rgb(29, 58, 58);
+    background-color: rgb(66, 21, 21);
     padding: 1em;
     margin: 0.2em;
     transition: 0.3s;
