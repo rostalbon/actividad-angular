@@ -2,13 +2,18 @@
 .carrousel-content {
   display: flex;             /* Alinea los elementos en fila */
   align-items: center;       /* Centra verticalmente las flechas con la imagen */
-  justify-content: flex-start;    /* Centra todo el conjunto en el medio de la pantalla */
+  justify-content: center;    /* Centra todo el conjunto en el medio de la pantalla */
   gap: 20px;
-  width: 100%;
+  width: 30%;
+  background-color: rgb(47, 87, 88);
+  padding: 2em;
+  border-radius: 2em;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 .img {
-  width: 20%;
+  width: 75%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
   display: flex;
@@ -34,6 +39,7 @@ button {
   cursor: pointer;
   padding: 10px;
   transition: transform 0.2s;
+  color: cadetblue;
 }
 
 button:hover {
