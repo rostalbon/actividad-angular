@@ -5,10 +5,17 @@ h1 {
     font-size: 6em;
     margin-bottom: 0em;
 }
+
 body {
     background-color: black;
     font-family: monospace;
 }
+
 .esc {
     font-style: italic;
+}
+
+.name {
+    font-size: xx-large;
+    font-weight: bold;
 }
