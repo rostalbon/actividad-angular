@@ -19,7 +19,6 @@ a:hover {
     background-color: #EAE2D6;
     padding-top: 2em;
     padding-bottom: 2em;
-    margin-left: 27em;
-    margin-right: 27em;
+    margin-inline: 1em;
     border-radius: 1em;
 }
