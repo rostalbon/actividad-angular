@@ -1,9 +1,29 @@
-p {
-    text-align: justify;
-    margin-left: 10em;
-    margin-right: 10em;
-    background-color: cadetblue;
-    padding: 1.5em;
-    border-radius: 1em;
-    font-size: large;
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.left-container {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+  background-color: rgb(4, 114, 4);
+  padding: 2em;
+  border-radius: 2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  flex-shrink: 0;
+  font-size: large;
+}
+
+.right-container {
+  flex-grow: 1;
+  margin-top: 1em;
+  padding: 2em;
+  background-color: rgb(4, 114, 4);
+  border-radius: 2em;
+  padding-top: 1em;
 }
