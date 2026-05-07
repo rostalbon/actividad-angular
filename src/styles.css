@@ -1,13 +1,13 @@
 h1 {
     font-size: 4em;
     text-align: center;
-    color: black;
+    color: #4A443F;
     font-size: 6em;
     margin-bottom: 0em;
 }
 
 body {
-    background-color: black;
+    background-color: #F9F7F2;
     font-family: monospace;
 }
 
@@ -26,14 +26,19 @@ ul {
 }
 
 a {
-    color: cadetblue;
+    color: #B07D62;
+}
+
+a:hover {
+    color: #96654b;
 }
 
 .container {
   margin-top: 1.2em;
   padding: 2em;
-  background-color: rgb(4, 114, 4);
+  background-color: #EAE2D6;
   border-radius: 2em;
   padding-top: 1em;
   margin: 1em;
+  color: #4A443F;
 }

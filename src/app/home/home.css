@@ -3,6 +3,7 @@
   align-items: flex-start;
   gap: 20px;
   width: 100%;
+  color: #4A443F;
 }
 
 .carrousel-container {
@@ -11,7 +12,7 @@
   justify-content: center;
   gap: 20px;
   width: 30%;
-  background-color: rgb(4, 114, 4);
+  background-color: #EAE2D6;
   padding: 2em;
   border-radius: 2em;
   margin-top: 1em;
@@ -23,7 +24,7 @@
   flex-grow: 1;
   margin-top: 1em;
   padding: 2em;
-  background-color: rgb(4, 114, 4);
+  background-color: #EAE2D6;
   border-radius: 2em;
   padding-top: 1em;
   margin-right: 1em;
@@ -36,9 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0.5em;
-  border: 1em;
-  border-color: black;
+  border-radius: 1em;
 }
 
 .img ::ng-deep img {
@@ -55,7 +54,7 @@ button {
   cursor: pointer;
   padding: 10px;
   transition: transform 0.2s;
-  color: black;
+  color: #4A443F;
 }
 
 button:hover {
